@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Graphly</title>
+  <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+  <div id="container">
+   <div>
+    <noscript>Sadly, the JavaScript does not work here:(</noscript>
+    <p>Welcome to Graphly(Alpha), the free and open source(<span title="Free and Open Source Software">FOSS</span>) website for graphing!</p> 
+    <p>This website is similar to <a href="https://desmos.com">Desmos</a>, where you can make graphs.</p>
+    <label for="equation">Type in your equation:</label>
+    <input type="text" id="equation"></input>
+    <br />
+    <label for="color">Assign the color of your equation:</label>
+    <input type="color" id="color" />
+    <br />
+    <button onclick="submit()">Submit</button>
+    </form>
+    <br />
+   </div>
+   <div>
+    <canvas id="output">Sadly, the canvas does not work here:(</canvas>
+   </div>
+  </div>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="script.js"></script>
+ </body>
+</html>
