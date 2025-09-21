@@ -1,0 +1,9 @@
+#container {
+ display: flex;
+}
+
+#output {
+ border: 1px solid black;
+ width: 50vw;
+ height: 50vm;
+}
